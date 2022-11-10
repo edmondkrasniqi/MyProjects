@@ -1,0 +1,24 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-dotmenu {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #0dcaf0;
+    background: rgb(255, 255, 255);
+    background-image:
+        radial-gradient(#0dcaf0 2px, transparent 2px),
+        radial-gradient(#0dcaf0 2px, transparent 2px),
+        radial-gradient(#0dcaf0 2px, transparent 2px);
+    background-position:
+        center -7px,
+        center center,
+        center 7px;
+    transform: rotate(90deg);
+}
+
+.bg-light-grey {
+    background-color: #e9ecef;
+}
